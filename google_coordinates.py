@@ -8,5 +8,3 @@ def address_to_cordinate(address):
 	Json_response = resposne.json()
 	coordinates = Json_response['results'][0]['geometry']['location']
 	return coordinates
-
-
